@@ -7,9 +7,14 @@
   position: relative;
 }
 
-.menubar__logo {
+.menubar__logo-mobile {
+  display: block;
   width: 68px;
   height: 64px;
+}
+
+.menu_logo-desktop {
+  display: none;
 }
 
 .menubar__viseble:checked ~ nav {
@@ -62,5 +67,24 @@
 
   .menubar__links-acesso li {
     margin: 0;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .menubar {
+    padding: 37px 120px;
+  }
+  .menubar__logo-mobile {
+    display: none;
+  }
+
+  .menu_logo-desktop {
+    display: block;
+    width: 260px;
+    height: 64px;
+  }
+
+  .menubar__links-acesso li a:hover{
+    color: var(--primary-color);
   }
 }
