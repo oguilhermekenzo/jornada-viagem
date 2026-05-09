@@ -11,6 +11,10 @@
     height: 64px;
 }
 
+.menubar__viseble:checked ~ nav {
+    display: block;
+}
+
 .menubar__linksAceso {
     display: none;
 }
