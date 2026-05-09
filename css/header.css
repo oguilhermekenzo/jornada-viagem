@@ -29,6 +29,10 @@
     list-style: none;
 }
 
+.menubar__links-acesso li {
+    margin: 16px 0;
+}
+
 .menubar__links-acesso li a {
     color: var(--text-secondary-color);
     text-decoration: none;
