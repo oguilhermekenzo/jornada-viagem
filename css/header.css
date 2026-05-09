@@ -1,0 +1,16 @@
+.menubar {
+    background-color: var(--background-tertiary-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 38px 48px;
+}
+
+.menubar__logo {
+    width: 68px;
+    height: 64px;
+}
+
+.menubar__linksAceso {
+    display: none;
+}
