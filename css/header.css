@@ -4,6 +4,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 38px 48px;
+    position: relative;
 }
 
 .menubar__logo {
@@ -13,8 +14,22 @@
 
 .menubar__viseble:checked ~ nav {
     display: block;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    width: 100%;
+    background-color: var(--background-tertiary-color);
 }
 
-.menubar__linksAceso {
+.menubar__hamburguer {
     display: none;
+}
+
+.menubar__links-acesso {
+    list-style: none;
+}
+
+.menubar__links-acesso li a {
+    color: var(--text-secondary-color);
+    text-decoration: none;
 }
