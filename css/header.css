@@ -1,39 +1,66 @@
 .menubar {
-    background-color: var(--background-tertiary-color);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 38px 48px;
-    position: relative;
+  background-color: var(--background-tertiary-color);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 38px 48px;
+  position: relative;
 }
 
 .menubar__logo {
-    width: 68px;
-    height: 64px;
+  width: 68px;
+  height: 64px;
 }
 
 .menubar__viseble:checked ~ nav {
-    display: block;
-    position: absolute;
-    left: 0;
-    top: 100%;
-    width: 100%;
-    background-color: var(--background-tertiary-color);
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 100%;
+  width: 100%;
+  background-color: var(--background-tertiary-color);
 }
 
 .menubar__hamburguer {
-    display: none;
+  display: none;
 }
 
 .menubar__links-acesso {
-    list-style: none;
+  list-style: none;
 }
 
 .menubar__links-acesso li {
-    margin: 16px 0;
+  margin: 16px 0;
 }
 
 .menubar__links-acesso li a {
-    color: var(--text-secondary-color);
-    text-decoration: none;
+  color: var(--text-secondary-color);
+  text-decoration: none;
+  font-weight: var(--text-weight);
+  font-size: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .menubar__navigation label {
+    display: none;
+  }
+
+  .menubar__hamburguer {
+    margin-top: 0;
+    display: block;
+    width: 467px;
+    padding: 0;
+  }
+
+  .menubar__links-acesso {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+  }
+
+  .menubar__links-acesso li {
+    margin: 0;
+  }
 }
