@@ -84,7 +84,7 @@
     height: 64px;
   }
 
-  .menubar__links-acesso li a:hover{
+  .menubar__links-acesso li a:hover {
     color: var(--primary-color);
   }
 }

@@ -4,7 +4,7 @@
   font-family: Montserrat;
   src: url(../assets/fonts/Montserrat-VariableFont_wght.ttf);
   font-style: normal;
-  font-display: swap;   
+  font-display: swap;
 }
 
 :root {
@@ -24,5 +24,5 @@
 }
 
 body {
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
 }
