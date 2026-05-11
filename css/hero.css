@@ -4,3 +4,18 @@
   background: url(../assets/image/hero-mobile.jpg) no-repeat;
   background-size: cover;
 }
+
+@media screen and (min-width: 768px) {
+  .hero__image {
+    height: 768px;
+    background: url(../assets/image/hero-tablet.jpg) no-repeat;
+    background-size: cover;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .hero__image {
+    background: url(../assets/image/hero-desktop.jpg) no-repeat;
+    background-size: cover;
+  }
+}
