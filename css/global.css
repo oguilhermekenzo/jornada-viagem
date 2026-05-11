@@ -2,6 +2,7 @@
 body,
 img,
 h1,
+h2,
 p,
 fieldset,
 legend,
@@ -13,4 +14,25 @@ button {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  color: var(--text-primary-color);
+}
+
+.section__title h2 {
+  font-size: 28px;
+  font-weight: var(--title-weight);
+  text-align: center;
+}
+
+.section__title hr {
+  width: 180px;
+  height: 4px;
+  background-color: var(--secondary-color);
+  border: none;
+  margin: 16px auto 32px;
+}
+
+@media screen and (min-width: 768px) {
+  .section__title h2 {
+    font-size: 32px;
+  }
 }

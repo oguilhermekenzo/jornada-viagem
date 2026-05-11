@@ -6,11 +6,11 @@
 }
 
 .hero h2 {
-    font-size: 20px;
-    font-weight: var(--text-weight);
-    padding: 88px 60px;
-    text-align: center;
-    line-height: 1.5;
+  font-size: 20px;
+  font-weight: var(--text-weight);
+  padding: 88px 60px;
+  text-align: center;
+  line-height: 1.5;
 }
 
 @media screen and (min-width: 768px) {
@@ -25,5 +25,9 @@
   .hero__image {
     background: url(../assets/image/hero-desktop.jpg) no-repeat;
     background-size: cover;
+  }
+
+  .hero h2 {
+    padding: 88px 120px;
   }
 }
