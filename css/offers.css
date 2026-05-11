@@ -1,0 +1,42 @@
+.card {
+  background-color: black;
+  text-align: center;
+  color: var(--text-secondary-color);
+  width: 312px;
+  height: 288px;
+  border-radius: 16px;
+}
+
+.card header p {
+  display: inline-block;
+  color: var(--text-secondary-color);
+  font-size: 20px;
+  font-weight: var(--text-weight);
+  margin: 24px 0 8px 0;
+}
+
+.card h3 {
+  font-size: 40px;
+  margin: 0;
+}
+
+.card span {
+  display: inline-block;
+  font-size: 32px;
+  margin: 24px 0;
+}
+
+@media screen and (min-width: 1440px) {
+  .card {
+    width: 588px;
+    height: 308px;
+  }
+
+  .card h3 {
+    font-size: 48px;
+  }
+
+  .card span {
+    font-size: 40px;
+  }
+}
