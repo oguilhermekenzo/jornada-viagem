@@ -31,8 +31,33 @@ button {
   margin: 16px auto 32px;
 }
 
+.button {
+  display: inline-block;
+  box-sizing: border-box;
+  width: 280px;
+  background-color: var(--secondary-color);
+  padding: 16px 74px;
+  border-radius: 8px;
+  text-decoration: none;
+  color: var(--text-secondary-color);
+  font-size: 20px;
+  font-weight: var(--title-weight);
+  line-height: 32px;
+}
+
 @media screen and (min-width: 768px) {
   .section__title h2 {
     font-size: 32px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .button {
+    display: inline-block;
+    width: 312px;
+  }
+
+  .button:hover {
+    background-color: var(--primary-color);
   }
 }
