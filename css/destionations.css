@@ -1,0 +1,98 @@
+.destionations .section__title {
+  margin-top: 88px;
+}
+
+.destionations span {
+  display: block;
+}
+
+.destionations__items {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+}
+
+.destionations__items article {
+  width: 312px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.destionations__img {
+  width: 312px;
+  height: 360px;
+  background-size: cover;
+}
+
+.destionations__tokyo {
+  background-image: url(../assets/image/tokyo-mobile.jpg);
+}
+
+.destionations__osaka {
+  background-image: url(../assets/image/osaka-mobile.jpg);
+}
+
+.destionations__items h4 {
+  margin: 24px 0;
+  font-size: 28px;
+}
+
+.destionations__items p {
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+.destionations__items .button {
+  display: inline-block;
+  width: 312px;
+  margin: 24px auto 0;
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .destionations span {
+    display: inline;
+  }
+  .destionations__items article {
+    width: 648px;
+  }
+
+  .destionations__img {
+    width: 648px;
+    height: 452px;
+    background-size: cover;
+  }
+
+  .destionations__tokyo {
+    background-image: url(../assets/image/tokyo-tablet.jpg);
+  }
+
+  .destionations__osaka {
+    background-image: url(../assets/image/osaka-tablet.jpg);
+  }
+
+  .destionations__items .button {
+    width: 280px;
+    margin: 24px 0 0;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .destionations__items {
+    flex-direction: row;
+    justify-content: center;
+    align-items: start;
+    gap: 24px;
+  }
+
+  .destionations__items article {
+    width: 588px;
+  }
+
+  .destionations__img {
+    width: 588px;
+    height: 452px;
+  }
+}
