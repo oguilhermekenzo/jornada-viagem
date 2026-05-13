@@ -1,0 +1,74 @@
+.searchCategory {
+  margin-top: 88px;
+}
+
+.categorys {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+
+.linkCategory {
+  width: 312px;
+  height: 220px;
+  background-color: var(--background-secondary-color);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.linkCategory {
+  text-decoration: none;
+  color: var(--text-primary-color);
+  font-size: 23px;
+  text-align: center;
+  gap: 24px;
+}
+
+.linkCategory h3 {
+  margin: 0;
+}
+
+.linkCategory .pct-nacional {
+  padding: 49px 72px;
+}
+
+.linkCategory .pct-inter {
+  padding: 64px 67px;
+}
+
+.linkCategory .transfer {
+  padding: 74px 47px;
+}
+
+.linkCategory .seguro-viagem {
+  padding: 74px;
+}
+
+@media screen and (min-width: 768px) {
+  .categorys {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .transfer img {
+    margin-top: 35px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .searchCategory {
+    margin-top: 104px;
+  }
+
+  .linkCategory {
+    width: 281px;
+  }
+
+  .transfer img {
+    margin-top: 15px;
+  }
+}
