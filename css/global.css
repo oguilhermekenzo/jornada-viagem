@@ -17,10 +17,23 @@ button {
   color: var(--text-primary-color);
 }
 
+.title {
+  font-size: 28px;
+  font-weight: var(--title-weight);
+  margin: 0 24px;
+}
+
+.text {
+  font-size: 20px;
+  font-weight: var(--text-weight);
+  margin: 0 24px;
+}
+
 .section__title h2 {
   font-size: 28px;
   font-weight: var(--title-weight);
   text-align: center;
+  margin-top: 88px;
 }
 
 .section__title hr {
@@ -52,6 +65,9 @@ button {
 }
 
 @media screen and (min-width: 1440px) {
+  .section__title h2 {
+    margin-top: 104px;
+  }
   .button {
     display: inline-block;
     width: 312px;

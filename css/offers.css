@@ -17,8 +17,6 @@
 .card header p {
   display: inline-block;
   color: var(--text-secondary-color);
-  font-size: 20px;
-  font-weight: var(--text-weight);
   margin: 24px 0 8px 0;
 }
 
