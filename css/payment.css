@@ -1,0 +1,88 @@
+.payment .title {
+  margin-bottom: 24px;
+}
+
+.payment__content-text {
+  margin: 17.5px;
+}
+
+.payment__content-text h3,
+.payment__content-text p {
+  margin: 0px;
+}
+
+.imageGrid {
+  display: grid;
+  width: 312px;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 254px 182px;
+  grid-template-areas:
+    "malas passport"
+    "people people";
+  column-gap: 24px;
+  row-gap: 24px;
+  margin: 24px auto 0;
+}
+
+.image__gallery {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+}
+
+.malas {
+  grid-area: malas;
+  background-image: url(../assets/image/img-malas-mobile.png);
+}
+
+.passport {
+  grid-area: passport;
+  background-image: url(../assets/image/img-passport-mobile.png);
+}
+
+.people {
+  grid-area: people;
+  background-image: url(../assets/image/img-people-mobile.png);
+}
+
+@media screen and (min-width: 768px) {
+  .payment__content-text {
+    margin-left: 52.500px;
+  }
+
+  .imageGrid {
+    width: 648px;
+    grid-template-rows: 254px 182px;
+  }
+
+  .malas {
+    grid-area: malas;
+    background-image: url(../assets/image/img-malas-tablet.png);
+  }
+
+  .passport {
+    grid-area: passport;
+    background-image: url(../assets/image/img-passport-tablet.png);
+  }
+
+  .people {
+    grid-area: people;
+    background-image: url(../assets/image/img-people-tablet.png);
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .payment__content {
+    display: flex;
+    margin: 64px 121px 0;
+  }
+
+  .payment__content-text {
+    width: 407px;
+  }
+
+  .imageGrid {
+    width: 790px;
+    margin: 0;
+  }
+}

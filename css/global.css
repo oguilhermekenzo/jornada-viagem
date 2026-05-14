@@ -20,11 +20,13 @@ button {
 .title {
   font-size: 28px;
   font-weight: var(--title-weight);
+  margin: 0 24px;
 }
 
 .text {
   font-size: 20px;
   font-weight: var(--text-weight);
+  margin: 0 24px;
 }
 
 .section__title h2 {
