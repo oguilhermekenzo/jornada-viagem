@@ -1,0 +1,38 @@
+.payment__destination {
+  margin: 24px;
+}
+
+.payment__destination .payment__content-text {
+  margin: 0;
+}
+
+.payment__destination h4 {
+  margin: 0;
+}
+
+.payment__destination .button {
+  margin-top: 40px;
+  width: 100%;
+  text-align: center;
+}
+
+.imageGrid {
+  grid-template-areas:
+    "templo rua"
+    "cultura cultura";
+}
+
+.templo-japao {
+  grid-area: templo;
+  background-image: url(../assets/image/templo-japao.png);
+}
+
+.rua-japao {
+  grid-area: rua;
+  background-image: url(../assets/image/rua-japao.png);
+}
+
+.cultura-japao {
+  grid-area: cultura;
+  background-image: url(../assets/image/cultura-japao.png);
+}
