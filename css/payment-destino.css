@@ -36,3 +36,36 @@
   grid-area: cultura;
   background-image: url(../assets/image/cultura-japao.png);
 }
+
+@media screen and (min-width: 768px) {
+  .payment__destination {
+    margin: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .payment__destination .payment__content-text {
+    width: 648px;
+  }
+  .payment__destination .button {
+    display: none;
+  }
+  .imageGrid {
+    margin: 24px 0;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .payment__destination {
+    margin: 64px 121px 0;
+    flex-direction: row;
+    gap: 23px;
+  }
+  .payment__destination .payment__content-text {
+    width: 384px;
+  }
+
+  .imageGrid {
+    margin: 0;
+  }
+}
