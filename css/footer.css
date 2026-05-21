@@ -35,6 +35,10 @@
   height: 32px;
 }
 
+.footer__blog {
+  margin-top: 88px;
+}
+
 @media screen and (min-width: 768px) {
   .footer__imgCity {
     background-image: url(../assets/image/image-city-rodape-tablet.png);
@@ -46,5 +50,9 @@
     flex-direction: row;
     justify-content: space-between;
     margin: 0 120px;
+  }
+
+  .footer__blog {
+    margin-top: 104px;
   }
 }
