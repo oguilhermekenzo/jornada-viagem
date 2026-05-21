@@ -74,6 +74,30 @@
   padding: 81px 24px 0;
 }
 /* #endregion */
+
+/* Hero bottom */
+
+.hero__bottom {
+  width: 100%;
+  height: 400px;
+  margin-top: 88px;
+}
+
+/* #region destino.html | Página destino */
+.hero__bottom-destino {
+  background-image: url(../assets/image/hero-bottom-destino.jpg);
+  background-size: cover;
+  background-position: center;
+}
+/* #endregion */
+
+/* #region contatos.html | Página contatos */
+.hero__bottom-contato {
+  background-image: url(../assets/image/hero-bottom-contatos.jpg);
+  background-size: cover;
+  background-position: center;
+}
+/* #endregion */
 @media screen and (min-width: 768px) {
   .hero__image {
     height: 620px;
@@ -123,5 +147,12 @@
 
   .hero__image .text {
     margin: 0 741px 0 120px;
+  }
+
+  /* Hero bottom */
+
+  .hero__bottom {
+    height: 600px;
+    margin-top: 104px;
   }
 }
