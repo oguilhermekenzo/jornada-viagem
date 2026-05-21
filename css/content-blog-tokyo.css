@@ -1,0 +1,64 @@
+.cityTokio {
+  margin: 0 24px;
+}
+
+.cityTokio .title {
+  margin: 0 0 24px 0;
+}
+
+.cityTokio .text {
+  margin: 0 0 24px 0;
+  line-height: 1.5;
+}
+
+.imageContent {
+  width: 100%;
+  height: 360px;
+}
+
+.imageContent-mercado {
+  background: url(../assets/image/image-chegada-tokyo.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 32px;
+}
+
+.imageContent-windowTokyo {
+  background: url(../assets/image/bg-card-japao.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.cityTokio .caption {
+  font-size: 14px;
+  margin: 8px 0 32px;
+}
+
+@media screen and (min-width: 768px) {
+  .content__market {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas: "texto imagem";
+    column-gap: 24px;
+    margin-bottom: 32px;
+  }
+
+  .contet__text {
+    grid-area: texto;
+    height: 100%;
+  }
+
+  .imageContent-mercado {
+    grid-area: imagem;
+    height: 100%;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .content__market {
+    grid-template-columns: repeat(2, 588px);
+    grid-template-rows: 360px;
+    justify-content: center;
+  }
+
+}

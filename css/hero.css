@@ -1,6 +1,5 @@
-.hero__image {
-  height: 400px;
-  width: 100%;
+/* #region index.html | Hero main  */
+.hero__main {
   background: url(../assets/image/hero-mobile.jpg) no-repeat;
   background-size: cover;
 }
@@ -10,22 +9,106 @@
   text-align: center;
   line-height: 1.5;
 }
+/* #endregion */
+
+.hero__image {
+  height: 400px;
+  width: 100%;
+}
+
+.hero__image h2 {
+  margin: 0;
+  color: var(--text-secondary-color);
+  font-size: 48px;
+  text-align: left;
+  padding: 65px 24px 0;
+}
+
+.hero__image hr {
+  margin: 16px 24px 32px;
+  line-height: 1.5;
+}
+
+.hero__image .text {
+  color: var(--text-secondary-color);
+}
+
+/* #region destino.html | Página destino */
+
+.hero__destino {
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../assets/image/image-conheca-japao-mobile.jpg) no-repeat;
+  background-size: cover;
+  background-position: 65% center;
+}
+
+/* #endregion */
+
+/* #region blog.html | Página Blog */
+
+.hero___blog {
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../assets/image/hero-blog.jpg) no-repeat;
+  background-size: cover;
+  background-position: 65% center;
+}
+
+.hero___blog h2 {
+  padding: 81px 24px 0;
+}
+
+/* #endregion */
 
 @media screen and (min-width: 768px) {
   .hero__image {
-    height: 768px;
+    height: 620px;
+  }
+  /* #region index.html | Página inicial */
+
+  .hero__main {
     background: url(../assets/image/hero-tablet.jpg) no-repeat;
     background-size: cover;
   }
+
+  /* #endregion */
+
+  .hero__image h2 {
+    padding: 209px 120px 0;
+  }
+
+  .hero__image hr {
+    margin: 16px 120px 32px;
+  }
+
+  .hero__image .text {
+    margin: 0 69px 0 120px;
+    font-size: 32px;
+  }
+  /* #region blog.html | Página Blog */
+  .hero__blog h2 {
+    padding: 159px 95px 0;
+  }
+  /* #endregion */
 }
 
 @media screen and (min-width: 1440px) {
-  .hero__image {
+  .hero h2 {
+    padding: 88px 120px;
+  }
+  /* #region index.html | Página inicial */
+  .hero__main {
     background: url(../assets/image/hero-desktop.jpg) no-repeat;
     background-size: cover;
   }
+  /* #endregion */
 
-  .hero h2 {
-    padding: 88px 120px;
+  .hero__image h2 {
+    padding: 158px 120px 0;
+  }
+
+  .hero__image .text {
+    margin: 0 741px 0 120px;
   }
 }

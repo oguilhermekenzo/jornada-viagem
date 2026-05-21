@@ -30,6 +30,18 @@
   background-image: url(../assets/image/osaka-mobile.jpg);
 }
 
+.destionations__hiroshima {
+  background: url(../assets/image/destino-hiroshima.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.destionations__kyoto {
+  background: url(../assets/image/destino-kyoto.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
 .destionations__items h3 {
   margin: 24px 0;
 }
@@ -43,6 +55,11 @@
   width: 312px;
   margin: 24px auto 0;
   text-align: center;
+}
+
+.suggestion h2 {
+  margin: 0 24px;
+  font-size: 32px;
 }
 
 @media screen and (min-width: 768px) {
@@ -71,6 +88,10 @@
     width: 280px;
     margin: 24px 0 0;
   }
+
+  .suggestion h2 {
+    margin: 0 84px;
+  }
 }
 
 @media screen and (min-width: 1440px) {
@@ -88,5 +109,13 @@
   .destionations__img {
     width: 588px;
     height: 452px;
+  }
+
+  .destionations__items-blog article {
+    width: 384px;
+  }
+
+  .destionations__items-blog .destionations__img {
+    width: 384px;
   }
 }
