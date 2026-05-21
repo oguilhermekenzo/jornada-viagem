@@ -57,6 +57,11 @@
   text-align: center;
 }
 
+.suggestion h2 {
+  margin: 0 24px;
+  font-size: 32px;
+}
+
 @media screen and (min-width: 768px) {
   .destionations span {
     display: inline;
@@ -83,6 +88,10 @@
     width: 280px;
     margin: 24px 0 0;
   }
+
+  .suggestion h2 {
+    margin: 0 84px;
+  }
 }
 
 @media screen and (min-width: 1440px) {
@@ -100,5 +109,13 @@
   .destionations__img {
     width: 588px;
     height: 452px;
+  }
+
+  .destionations__items-blog article {
+    width: 384px;
+  }
+
+  .destionations__items-blog .destionations__img {
+    width: 384px;
   }
 }
