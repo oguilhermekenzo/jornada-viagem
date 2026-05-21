@@ -30,7 +30,7 @@ Durante a construção deste layout, diversas técnicas de estilização foram a
 
 1. Faça o clone deste repositório:
    ```bash
-   git clone https://github.com/oguilhermekenzo/blog-frontmentor.git
+   git clone https://github.com/oguilhermekenzo/jornada-viagem.git
    ```
 
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
